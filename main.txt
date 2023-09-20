@@ -19,5 +19,12 @@ Buttons
     on click: yield 1 stone
     on click: if (chance(5%)) yield 1 iron
     on click: if (chance(1%)) yield 1 gold
-    icon: 
+    icon: Gem.png
+    no text
     class: bigButton hasFlares
+
+Resources
+  *stone
+    name: Stone
+    desc: The most basic resource
+    class: noBackground
