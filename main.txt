@@ -23,7 +23,7 @@ Buttons
 */
     icon: Gem.png
     no text
-    class: bigButton hasFlares
+    class: bigButton
 
 Resources
   *stone
