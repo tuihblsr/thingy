@@ -1,0 +1,23 @@
+Let's make a game!
+  name: Mining Game
+  by: tuihblsr
+  desc: Welcome to the mines.
+  version: 1
+
+Settings
+  building cost increase: 125%
+  building cost refund: 50%
+
+Layout
+  use default
+
+Buttons
+  *mineStone
+    name: Mine
+    desc: Click to mine for resources
+    on click: anim icon wobble
+    on click: yield 1 stone
+    on click: if (chance(5%)) yield 1 iron
+    on click: if (chance(1%)) yield 1 gold
+    icon: 
+    class: bigButton hasFlares
