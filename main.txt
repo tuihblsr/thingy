@@ -17,8 +17,10 @@ Buttons
     desc: Click to mine for resources
     on click: anim icon wobble
     on click: yield 1 stone
+/*
     on click: if (chance(5%)) yield 1 iron
     on click: if (chance(1%)) yield 1 gold
+*/
     icon: Gem.png
     no text
     class: bigButton hasFlares
