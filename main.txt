@@ -29,4 +29,5 @@ Resources
   *stone
     name: Stone
     desc: The most basic resource
+    icon:
     class: noBackground
